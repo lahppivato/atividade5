@@ -5,12 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Determinar Estação do Ano</title>
 <script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Determinar Estação do Ano</h1>
-  <label for="dateInput">Insira uma data:</label>
-  <input type="date" id="dateInput">
-  <button onclick="determineSeason()">Determinar Estação</button>
-  <p id="result"></p>
+  <div class="container">
+  <div class="box">
+   <h1>Determinar Estação do Ano</h1>
+   <label for="dateInput">Insira uma data:</label>
+   <input type="date" id="dateInput">
+   <br>
+   <br>
+   <button onclick="determineSeason()">Determinar Estação</button>
+   <p id="result"></p>
+  </div>
+  </div>
 </body>
 </html>

@@ -16,5 +16,5 @@ function determineSeason() {
     }
 
     const resultElement = document.getElementById("result");
-    resultElement.textContent = `A estação do ano para a data inserida é: ${season}`;
+    resultElement.textContent = `A estação do ano é: ${season}`;
   }
